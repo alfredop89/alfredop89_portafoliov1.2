@@ -1,0 +1,47 @@
+.habilidades{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    .habilidades-container{
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        h3{
+            font-size: 40px;
+            border-bottom: 2px solid #58355E;
+        }
+        .habilidades-text{
+            width: 45%;
+            border: 2px solid #58355E;
+            padding: 20px 30px;
+            background-color: #58355e18;
+            backdrop-filter: blur(2px);
+            i{
+                font-size: 20px;
+                color: #58355E;
+                margin-right: 10px;
+            }
+            p{
+                line-height: 50px;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+
+// MEDIA QUERIES
+
+@media screen and (max-width: 980px) {
+    
+    .habilidades{
+        .habilidades-container{
+            .habilidades-text{
+                width: 100%;
+            }
+        }
+    }
+}
