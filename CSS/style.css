@@ -389,6 +389,37 @@ body {
   cursor: pointer;
 }
 
+.download-cv-container {
+  position: fixed;
+  left: 0%;
+  bottom: 0%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.76);
+  backdrop-filter: blur(8px);
+  margin: 20px;
+  z-index: 10;
+  border-radius: 8px;
+  transition: height 0.5s;
+  overflow: hidden;
+}
+.download-cv-container li {
+  list-style: none;
+}
+.download-cv-container li i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.download-cv-container li a {
+  display: list-item;
+  text-decoration: none;
+  margin: 20px;
+  color: #58355E;
+}
+
+.open-download-cv-container {
+  height: 100px;
+}
+
 .square-animation {
   position: fixed;
   right: 0;

@@ -6,13 +6,15 @@ let contactoLink = document.querySelectorAll('.contacto-link')
 let contactoDiv = document.getElementById('contactoDiv')
 let fadeOutContainers = document.querySelectorAll('.fade-out')
 let lightMode = document.getElementById('lightMode')
-
+let downloadCv = document.querySelectorAll('.download-cv')
+let downloadCvContainer = document.querySelector('.download-cv-container')
 
 // BODY CLICK
 
 body.onclick = () => {
     dropMenu.classList.remove('open-drop-menu')
     contactoDiv.style.transform = 'translateX(1000px)'
+    downloadCvContainer.classList.remove('open-download-cv-container')
 }
 // HEADER & MENU
 
@@ -63,3 +65,13 @@ squareAnimation()
 lightMode.onclick = () => {
     body.classList.toggle('light')
 }
+
+// DOWNLOAD CV
+
+downloadCv.forEach((link) => {
+    link.onclick = (e) => {
+        e.preventDefault()
+        e.stopPropagation()
+        downloadCvContainer.classList.add('open-download-cv-container')
+    }
+})
