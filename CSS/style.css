@@ -323,6 +323,12 @@ header .download-cv {
   .footer .footer-container .footer-contacto, .footer .footer-container .footer-redes {
     width: 100%;
   }
+  .footer .footer-container .footer-redes i {
+    margin: 30px 10px;
+  }
+  .footer-rights span {
+    font-size: 8px;
+  }
 }
 * {
   margin: 0;

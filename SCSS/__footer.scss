@@ -80,6 +80,16 @@
             .footer-contacto, .footer-redes{
                 width: 100%;
             }
+            .footer-redes{
+                i{
+                    margin: 30px 10px;
+                }
+            }
+        }
+    }
+    .footer-rights{
+        span{
+            font-size: 8px;
         }
     }
 }
