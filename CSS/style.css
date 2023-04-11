@@ -458,6 +458,9 @@ body {
   .contacto a {
     font-size: 30px;
   }
+  .open-download-cv-container {
+    height: 120px;
+  }
   .square-animation {
     height: 600px;
     width: 600px;
