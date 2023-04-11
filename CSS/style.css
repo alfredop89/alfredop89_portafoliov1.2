@@ -339,7 +339,7 @@ header .download-cv {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(10, 10, 10);
+  background-color: rgb(31, 31, 31);
   overflow-x: hidden;
 }
 
@@ -370,7 +370,7 @@ body {
 
 .contacto {
   position: fixed;
-  background-color: rgba(0, 0, 0, 0.466);
+  background-color: rgba(0, 0, 0, 0.952);
   padding: 10px 15px;
   border-bottom-left-radius: 10px;
   border-top-left-radius: 10px;
