@@ -16,8 +16,9 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background-color: rgba(0, 0, 0, 0.959);
+            background-color: rgba(0, 0, 0, 0.719);
             border-top: 6px solid #58355E;
+            backdrop-filter: blur(8px);
             img{
                 height: 100px;
                 cursor: pointer;
