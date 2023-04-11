@@ -124,7 +124,7 @@ header .download-cv {
 }
 .acerca .acerca-container .acerca-img img {
   height: 300px;
-  opacity: 0.1;
+  opacity: 0.05;
 }
 .acerca .acerca-container .acerca-text {
   width: 60%;
@@ -232,16 +232,16 @@ header .download-cv {
 
 @media screen and (max-width: 980px) {
   .proyectos .proyectos-container .proyectos-logos:nth-child(1) img {
-    height: 80px;
+    height: 70px;
   }
   .proyectos .proyectos-container .proyectos-logos:nth-child(2) img {
-    height: 50px;
+    height: 40px;
   }
   .proyectos .proyectos-container .proyectos-logos:nth-child(3) img {
     height: 30px;
   }
   .proyectos .proyectos-container .proyectos-logos:nth-child(4) img {
-    height: 100px;
+    height: 90px;
   }
 }
 .footer {
