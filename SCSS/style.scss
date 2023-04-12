@@ -88,7 +88,7 @@ body{
     }
 }
 .open-download-cv-container{
-    height: 120px;
+    height: 110px;
 }
 
 // SQUARE ANIMATION
@@ -143,6 +143,9 @@ body{
     }
     .open-download-cv-container{
         height: 110px;
+        a{
+            font-size: 15px;
+        }
     }
     .square-animation{
         height: 600px;
