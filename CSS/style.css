@@ -309,6 +309,7 @@ header .download-cv {
   padding: 40px 0;
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 .footer-rights img {
   height: 20px;
@@ -323,11 +324,12 @@ header .download-cv {
   .footer .footer-container .footer-contacto, .footer .footer-container .footer-redes {
     width: 100%;
   }
-  .footer .footer-container .footer-redes i {
-    margin: 30px 5px;
+  .footer .footer-container .footer-redes .footer-social-icons i {
+    margin: 30px 10px;
   }
   .footer-rights span {
-    font-size: 8px;
+    font-size: 12px;
+    text-align: center;
   }
 }
 * {
