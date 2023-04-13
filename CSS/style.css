@@ -3,7 +3,7 @@ header {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: rgba(0, 0, 0, 0.315);
+  background-color: rgba(0, 0, 0, 0.808);
   backdrop-filter: blur(8px);
   transition: 0.5s;
   overflow: hidden;
@@ -13,7 +13,7 @@ header .header-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 15px 0;
+  padding: 8px 0;
 }
 header .header-container img {
   height: 50px;
@@ -56,18 +56,21 @@ header .open-drop-menu {
   height: 420px;
 }
 header .download-cv {
-  border: 1px solid #6d4974;
+  border: 1px solid #58355E;
   padding: 10px;
   transition: 0.5s;
 }
 header .download-cv:hover {
-  background-color: black;
+  background-color: #58355E;
 }
 
 @media screen and (max-width: 1060px) {
   header {
     backdrop-filter: none;
     background-color: #58355E;
+  }
+  header .header-container {
+    padding: 15px 0;
   }
   header .header-container img {
     height: 35px;
@@ -89,7 +92,7 @@ header .download-cv:hover {
   display: flex;
   justify-content: start;
   align-items: center;
-  color: white;
+  color: rgb(0, 0, 0);
   margin: 0 auto;
 }
 .banner .banner-text {
@@ -104,6 +107,9 @@ header .download-cv:hover {
   border-bottom: 2px solid #58355E;
   padding-bottom: 20px;
   margin-top: 20px;
+}
+.banner .banner-text p {
+  font-weight: 600;
 }
 
 @media screen and (max-width: 800px) {
@@ -127,7 +133,7 @@ header .download-cv:hover {
 }
 .acerca .acerca-container .acerca-img img {
   height: 300px;
-  opacity: 0.05;
+  margin-top: 160px;
 }
 .acerca .acerca-container .acerca-text {
   width: 60%;
@@ -142,11 +148,12 @@ header .download-cv:hover {
   margin: 20px 0;
   text-align: end;
   border-bottom: 2px solid #58355E;
+  color: black;
 }
 .acerca .acerca-container .acerca-text p {
   text-align: justify;
   line-height: 40px;
-  background-color: rgba(0, 0, 0, 0.226);
+  background-color: rgba(0, 0, 0, 0.788);
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px 30px;
 }
@@ -166,6 +173,7 @@ header .download-cv:hover {
     padding: 0;
     line-height: 30px;
     box-shadow: none;
+    color: black;
   }
 }
 .servicios {
@@ -200,7 +208,7 @@ header .download-cv:hover {
 }
 .servicios .servicios-container .servicios-block {
   height: 400px;
-  background-color: rgba(88, 53, 94, 0.2392156863);
+  background-color: rgba(88, 53, 94, 0.8431372549);
   width: 30%;
   padding: 20px;
   margin: 20px;
@@ -208,7 +216,7 @@ header .download-cv:hover {
 }
 .servicios .servicios-container .servicios-block h2 {
   text-align: center;
-  border-bottom: 2px solid #58355E;
+  border-bottom: 2px solid #986ba0;
   padding-bottom: 20px;
   margin-bottom: 20px;
 }
@@ -246,17 +254,18 @@ header .download-cv:hover {
   font-size: 40px;
   border-bottom: 2px solid #58355E;
   margin-bottom: 30px;
+  color: black;
 }
 .habilidades .habilidades-container .habilidades-text {
   width: 45%;
   border: 2px solid #58355E;
   padding: 20px 30px;
-  background-color: rgba(88, 53, 94, 0.0941176471);
+  background-color: rgba(88, 53, 94, 0.9098039216);
   backdrop-filter: blur(2px);
 }
 .habilidades .habilidades-container .habilidades-text i {
   font-size: 20px;
-  color: #58355E;
+  color: #96719c;
   margin-right: 10px;
 }
 .habilidades .habilidades-container .habilidades-text p {
@@ -339,8 +348,8 @@ header .download-cv:hover {
 }
 .footer .footer-container .footer-contacto {
   color: white;
-  width: 50%;
-  margin: 40px 0;
+  width: 48%;
+  margin: 40px 5px;
 }
 .footer .footer-container .footer-contacto h3 {
   border-bottom: 2px solid #58355E;
@@ -356,7 +365,7 @@ header .download-cv:hover {
 }
 .footer .footer-container .footer-redes {
   color: white;
-  width: 50%;
+  width: 48%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -422,7 +431,7 @@ header .download-cv:hover {
 
 body {
   font-family: "Montserrat", sans-serif;
-  background-color: rgb(15, 15, 15);
+  background-color: rgb(226, 226, 226);
   overflow-x: hidden;
   transition: 0.5s;
 }
@@ -497,7 +506,7 @@ body {
   display: list-item;
   text-decoration: none;
   margin: 20px;
-  color: #58355E;
+  color: white;
 }
 
 .open-download-cv-container {
@@ -536,9 +545,6 @@ body {
 }
 
 @media screen and (max-width: 780px) {
-  body {
-    background-color: rgb(31, 31, 31);
-  }
   .container {
     width: 90%;
   }

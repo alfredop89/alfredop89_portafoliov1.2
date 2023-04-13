@@ -64,7 +64,11 @@ squareAnimation()
 // LIGHT MODE
 
 lightMode.onclick = () => {
+    let logo = document.querySelector('.acerca-img')
+
     body.classList.toggle('light')
+    logo.innerHTML.toggle = `<img src="./assets/front-logo">`
+
 }
 
 // DOWNLOAD CV

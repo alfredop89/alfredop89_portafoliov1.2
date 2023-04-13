@@ -3,7 +3,7 @@ header{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.315);
+    background-color: rgba(0, 0, 0, 0.808);
     backdrop-filter: blur(8px);
     transition: 0.5s;
     overflow: hidden;
@@ -12,7 +12,7 @@ header{
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 15px 0;
+        padding: 8px 0;
         img{
             height: 50px;
             cursor: pointer;
@@ -57,12 +57,12 @@ header{
         height: 420px;
     }
     .download-cv{
-        border: 1px solid #6d4974;
+        border: 1px solid #58355E;
         padding: 10px;
         transition: 0.5s;
     }
     .download-cv:hover{
-        background-color: black;
+        background-color: #58355E;
     }
 
 }
@@ -76,6 +76,7 @@ header{
         backdrop-filter: none;
         background-color: #58355E;
         .header-container{
+            padding: 15px 0;
             img{
                 height: 35px;
             }

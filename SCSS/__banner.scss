@@ -3,7 +3,7 @@
     display: flex;
     justify-content: start;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     margin: 0 auto;
     .banner-text{ 
         margin: 0;
@@ -16,6 +16,9 @@
             border-bottom: 2px solid #58355E;
             padding-bottom: 20px;
             margin-top: 20px;
+        }
+        p{
+            font-weight: 600;
         }
     }
 }
