@@ -12,6 +12,7 @@
         h3{
             font-size: 40px;
             border-bottom: 2px solid #58355E;
+            margin-bottom: 30px;
         }
         .habilidades-text{
             width: 45%;
@@ -38,9 +39,11 @@
 @media screen and (max-width: 980px) {
     
     .habilidades{
+        margin: 80px 0;
         .habilidades-container{
             .habilidades-text{
                 width: 100%;
+                margin-bottom: 80px;
             }
         }
     }

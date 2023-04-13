@@ -54,12 +54,15 @@ header{
         }
     }
     .open-drop-menu{
-        height: 380px;
+        height: 420px;
     }
     .download-cv{
         border: 1px solid #6d4974;
         padding: 10px;
-        border-radius: 2px;
+        transition: 0.5s;
+    }
+    .download-cv:hover{
+        background-color: black;
     }
 
 }
@@ -68,7 +71,7 @@ header{
 
 // MEDIA QUERIES
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 1060px) {
     header{
         backdrop-filter: none;
         background-color: #58355E;

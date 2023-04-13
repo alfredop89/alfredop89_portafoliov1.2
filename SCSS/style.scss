@@ -1,6 +1,7 @@
 @import "./_header";
 @import "./_banner";
 @import "./_acerca";
+@import "./_servicios";
 @import "./_habilidades";
 @import "./_proyectos";
 @import "./_footer";
@@ -16,8 +17,9 @@
 }
 body{
     font-family: 'Montserrat', sans-serif;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(15, 15, 15);
     overflow-x: hidden;
+    transition: 0.5s;
 }
 .light-mode{
     position: fixed;
@@ -39,7 +41,7 @@ body{
     }
 }
 .container{
-    width: 75%;
+    width: 85%;
 }
 .contacto{
     position: fixed;
@@ -50,7 +52,7 @@ body{
     right: 0;
     top: 40%;
     transform: translateX(2000px);
-    transition: 1s;
+    transition: 0.5s;
     z-index: 1;
     a{
         display: list-item;
@@ -97,8 +99,8 @@ body{
     position: fixed;
     right: 0;
     top: 50%;
-    height: 1500px;
-    width: 1500px;
+    height: 1800px;
+    width: 1800px;
     background-color: transparent;
     border: 2px solid #58355e65;
     animation: square 20s infinite linear;
@@ -132,7 +134,9 @@ body{
 // MEDIA QUERIES
 
 @media screen and (max-width: 780px) {
-
+    body{
+        background-color: rgb(31, 31, 31);
+    }
     .container{
         width: 90%;
     }

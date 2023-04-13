@@ -31,7 +31,10 @@
             }
             p{
                 text-align: justify;
-                line-height: 30px;
+                line-height: 40px;
+                background-color: rgba(0, 0, 0, 0.226);
+                box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+                padding: 20px 30px;
             }
         }
     }
@@ -51,6 +54,11 @@
                 width: 100%;
                 h3{
                     font-size: 60px;
+                }
+                p{
+                    background-color: transparent;
+                    padding: 0;
+                    line-height: 30px;
                 }
             }
         }

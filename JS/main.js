@@ -30,6 +30,7 @@ contactoLink.forEach((e) => {
         ev.stopPropagation()
         ev.preventDefault()
         contactoDiv.style.transform = 'translateX(0)'
+        contactoDiv.stopPropagation()
     }
 })
 contactoDiv.onclick = () => {
