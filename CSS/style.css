@@ -165,6 +165,7 @@ header .download-cv:hover {
     background-color: transparent;
     padding: 0;
     line-height: 30px;
+    box-shadow: none;
   }
 }
 .servicios {
